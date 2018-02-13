@@ -9,6 +9,8 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Greeting obj = new Greeting();
+
 		System.out.println(obj.greet("This is Anand!"));
+                System.out.println(obj.greet("Bye Jenkins World !!"));
 	}	
 }
